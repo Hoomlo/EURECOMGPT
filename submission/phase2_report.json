@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 236.326,
+    "vectorized_ms": 0.991,
+    "speedup": 238.47
+  },
+  "threads": {
+    "1": 2585.124,
+    "2": 2466.989,
+    "4": 2378.921,
+    "8": 2817.565
+  },
+  "devices": {
+    "cpu_ms": 448434.4,
+    "gpu_ms": 15891.0
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.475,
+    "param_count": 4935680
+  },
+  "sample": "\nAs advoar\nMy break curchity it makestic as udtwedn.\n\nU\ufffdFinest Towere you county swed, that you would\nI would boy thee implauds in themionment.\nHis is your enoughs stold her cousand, he spence am\nFor t",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecomgpt-511507-eurecomgpt/model.safetensors"
+  }
+}
